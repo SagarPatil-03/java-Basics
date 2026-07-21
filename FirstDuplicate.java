@@ -2,6 +2,8 @@ import java.util.*;
 
 public class FirstDuplicate {
     public static void main(String[] args) {
+
+        System.out.println("Infosys ask question:--");
         List<Integer> transactionIds = Arrays.asList(101, 102, 103, 102, 104, 105);
 
         LinkedHashMap<Integer, Integer> map = new LinkedHashMap<>();
