@@ -14,6 +14,7 @@ public static void main(String args[])
             map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
 
+        System.out.println("Frequency count :-");
         System.out.println(map);
     }
 }
