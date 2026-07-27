@@ -31,7 +31,7 @@ class Main {
     public static void main(String[] args) {
 
         String s = "([{}])";
-      System.out.println("Is valid Or Not :-");
+      System.out.println("Parenthesis Is valid Or Not :-");
         System.out.println(isValid(s));
     }
 }
