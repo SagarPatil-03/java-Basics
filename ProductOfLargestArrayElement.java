@@ -24,7 +24,7 @@ public class ProductOfLargestArrayElement {
             }
         }
 
-        System.out.println(max1*max2);
+        System.out.println("Maximum Product Of Larget Array Element:-"+max1*max2);
 
     }
     
