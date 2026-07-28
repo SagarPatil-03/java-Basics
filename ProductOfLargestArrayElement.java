@@ -8,6 +8,10 @@ public class ProductOfLargestArrayElement {
         int max1=arr1[0];
         int max2=arr2[0];
 
+         if (arr1.length == 0 || arr2.length == 0) {
+           System.out.println("Array is empty");
+            return;
+}
         for(int num:arr1)
         {
             if(num>max1)
