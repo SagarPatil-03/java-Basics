@@ -23,8 +23,8 @@ public class ProductOfLargestArrayElement {
                 max2=num;
             }
         }
-           System.out.println("The max element from Array number 1:-"+max1);
-           System.out.println(max2);
+           System.out.println("The max element from Array 1:-"+max1);
+           System.out.println("The max element from Array 2:-"+max2);
         System.out.println("Maximum Product Of Larget Array Element:-"+max1*max2);
 
     }
