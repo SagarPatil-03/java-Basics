@@ -23,7 +23,7 @@ public class LongestSubstring {
 
             maxLength = Math.max(maxLength, right - left + 1);
         }
-
-        System.out.println("Maximum Longest Substring="+maxLength);
+        System.out.println("Imp To Competitive Exam");
+        System.out.println("Maximum Longest Substring :-"+maxLength);
     }
 }
