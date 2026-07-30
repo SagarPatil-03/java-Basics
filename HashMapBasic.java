@@ -38,7 +38,13 @@ class HashMapBasic{
          // 10.size()
         System.out.println(mp.size());
 
+        // 11.replace()
+        mp.replace(102, "Rohan");
 
+        // entrySet()
+        System.out.println(mp.entrySet());
+
+           System.out.println(mp);
 
     }
 }
