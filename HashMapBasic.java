@@ -16,8 +16,21 @@ class HashMapBasic{
         System.out.println(mp.containsValue("sagar"));
 
 
-        //get Value
+        //4.get Value
         System.out.println(mp.get(101));
+
+        // 5.getorDefault if availbale then show, either what our msg that show.
+        System.out.println(mp.getOrDefault(103, "Not Found"));
+
+        //6.Remove
+        
+
+
+        //7.Put if absent.
+        mp.putIfAbsent(103,"Pankaj");
+        
+        // KeySet
+        System.out.println(mp.keySet());
 
 
     }
