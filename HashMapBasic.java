@@ -23,14 +23,21 @@ class HashMapBasic{
         System.out.println(mp.getOrDefault(103, "Not Found"));
 
         //6.Remove
-        
+        mp.remove(102);
 
 
         //7.Put if absent.
         mp.putIfAbsent(103,"Pankaj");
         
-        // KeySet
+        //8. KeySet
         System.out.println(mp.keySet());
+
+        // 9.clear()
+        // map.clear();
+
+         // 10.size()
+        System.out.println(mp.size());
+
 
 
     }
