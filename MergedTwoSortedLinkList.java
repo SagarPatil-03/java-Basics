@@ -13,7 +13,7 @@ class MergedTwoSortedLinkList {
     static Node merge(Node l1, Node l2) {
 
         // Handle empty lists
-        if(l1 == null) return l2;
+        if(l1 == nu) return l2;
         if(l2 == null) return l1;
 
         // Choose starting head
