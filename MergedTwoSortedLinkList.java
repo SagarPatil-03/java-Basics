@@ -50,7 +50,7 @@ class MergedTwoSortedLinkList {
             temp.next = l1;
 
         else
-            temp.next = l2;
+            temp.next = l1;
 
 
         return head;
