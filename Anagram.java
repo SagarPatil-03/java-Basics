@@ -14,7 +14,7 @@ public class Anagram {
         Arrays.sort(b);
 
         if(Arrays.equals(a, b)) {
-            System.out.println("Give String Is Anagram");
+            System.out.println("Given String is Anagram");
         } else {
             System.out.println("Not Anagram");
         }
