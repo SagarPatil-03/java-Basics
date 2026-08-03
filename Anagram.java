@@ -11,7 +11,7 @@ public class Anagram {
         char[] b = s2.toCharArray();
 
         Arrays.sort(a);
-        Arrays.sort(a);
+        Arrays.sort(b);
 
         if(Arrays.equals(a, b)) {
             System.out.println("Given String is Anagram");
