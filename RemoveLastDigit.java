@@ -9,7 +9,7 @@ public class RemoveLastDigit {
 
         num = num / 10;
 
-        System.out.println("Remove The Last Digit From The Given Number:-"+num);
+        System.out.println("Remove The Last Digit From The Given Number is :-"+num);
     }
 }
     
