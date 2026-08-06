@@ -6,7 +6,7 @@ public class RemoveLastDigit {
 
         num = num / 10;
 
-        System.out.println(num);
+        System.out.println("Remove"+num);
     }
 }
     
