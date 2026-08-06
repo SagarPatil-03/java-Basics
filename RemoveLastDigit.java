@@ -1,8 +1,11 @@
+import java.util.*;
 public class RemoveLastDigit {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        int num = 12345;
+      System.out.println("Enter Your Number that i remove last digit:-");
+        int num =sc.nextInt() ;
 
         num = num / 10;
 
