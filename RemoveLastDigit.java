@@ -4,7 +4,7 @@ public class RemoveLastDigit {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-      System.out.println("Enter Your Number that i remove last digit:-");
+      System.out.println("Enter The Number:-");
         int num =sc.nextInt() ;
 
         num = num / 10;
