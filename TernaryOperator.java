@@ -5,7 +5,7 @@ public class TernaryOperator {
 
         String result = (num % 2 == 0) ? "Even" : "Odd";
 
-        System.out.println("varified The Given Input : ");
+        System.out.println("varified The Given Input is  : ");
 
         System.out.println(result);
     }
