@@ -9,7 +9,7 @@ public class MethodOverloading {
     }
 
     public static void main(String[] args) {
-     System.out.println("Example Of Method Overloading.");
+     System.out.println("Example Of Method Overloading.Go Through Code .");
         add(10, 20);        // 30
         add(10, 20, 30);    // 60
     }
