@@ -23,6 +23,6 @@ class Singleton {
 
         System.out.println(s1 == s2);
 
-        System.out.println("We used singleton method as there");
+        System.out.println("This is the Basic Example Of SingleTon Method.");
     }
 }
