@@ -22,5 +22,7 @@ class Singleton {
         Main s2 = Main.getInstance();
 
         System.out.println(s1 == s2);
+
+        System.out.println("We used singleton method as there");
     }
 }
