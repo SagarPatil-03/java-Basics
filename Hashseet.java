@@ -6,12 +6,12 @@ public class Hashseet {
      int arr[]={1,2,3,4,3,4,6,7};
            
      HashSet<Integer> hs=new HashSet<>();
-
+  // HashSet Used to find Unique Digits,000
      for(int num:arr)
      {
         if(hs.contains(num))
         {
-            System.out.println("1st Duplicate Number in array:-");
+            System.out.println("1st Duplicate Number in Given array:-");
             System.out.println(num);
             break;
         }
