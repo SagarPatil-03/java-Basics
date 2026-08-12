@@ -16,7 +16,8 @@ public class Hashseet {
             break;
         }
         hs.add(num);
-     }System.out.println(hs);
+     }
+     System.out.println(hs);
     }
     
 }
