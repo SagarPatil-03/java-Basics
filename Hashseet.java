@@ -11,7 +11,7 @@ public class Hashseet {
      {
         if(hs.contains(num))
         {
-            System.out.println("1st Duplicate Number in Given array:-");
+            System.out.println("1st Duplicate Number in Given array then break the array:-");
             System.out.println(num);
             break;
         }
