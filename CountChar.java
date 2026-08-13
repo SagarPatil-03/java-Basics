@@ -13,5 +13,7 @@ public class CountChar {
         }
 
         System.out.println(count);
+        System.out.println("Given String is ="+s);
+
     }
 }
