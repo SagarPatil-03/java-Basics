@@ -15,6 +15,7 @@ public class BinarySearch {
             if(arr[mid]==key)
             {
                 System.out.println(mid);
+                return;
             }
             else if(arr[mid]>key)
             {
