@@ -25,10 +25,11 @@ public class BinarySearch {
             {
                 start = mid +1;
             }
+        }
             System.out.println("Element Not Found.");
            
 
-        }
+        
 
 
 
