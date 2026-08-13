@@ -16,7 +16,7 @@ public class VowelsCount {
             }
         }
 
-
+       System.out.println(count);
     }
     
 }
