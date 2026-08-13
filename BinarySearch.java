@@ -16,6 +16,12 @@ public class BinarySearch {
             {
                 System.out.println(mid);
             }
+            else if(arr[mid]>key)
+            {
+                start=mid-1;
+            }
+           
+
         }
 
 
