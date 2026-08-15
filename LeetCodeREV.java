@@ -10,7 +10,7 @@ public class LeetCodeREV {
             int digit = num%10;
             if(rev>Integer.MAX_VALUE/10)
             {
-                return 0;
+                return ;
             }
              rev=rev*10+digit;
              num=num/10;
