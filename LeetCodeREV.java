@@ -8,6 +8,10 @@ public class LeetCodeREV {
         while(num!=0)
         {
             int digit = num%10;
+            if(num<Integer.Max_VALUE/10)
+            {
+                return 0;
+            }
              rev=rev*10+digit;
              num=num/10;
         }
