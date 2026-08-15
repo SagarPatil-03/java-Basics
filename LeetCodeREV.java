@@ -8,7 +8,7 @@ public class LeetCodeREV {
         while(num!=0)
         {
             int digit = num%10;
-            if(rev>Integer.Max_VALUE/10)
+            if(rev>Integer.MAX_VALUE/10)
             {
                 return 0;
             }
