@@ -19,6 +19,6 @@ public class RevNum {
 
         int result = Rev(234);
 
-        System.out.println(result);
+        System.out.println( ""+result);
     }
 }
