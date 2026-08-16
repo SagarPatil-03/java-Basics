@@ -1,30 +1,24 @@
-import java.util.*;
-
 public class RevNum {
 
-    public boolean Rev(int num)
-    {   
-        if(num<0)
-        {
-            return false;
+    public static int Rev(int num) {
+
+        int rev = 0;
+
+        while (num != 0) {
+            int digit = num % 10;
+
+            rev = rev * 10 + digit;
+
+            num = num / 10;
         }
-        int rev=0;
-     
-        while(num!=0)
-        {
-            int digit = num%10;
 
-            rev=rev*10+digit;
-
-            num =num/10;
-
-        }
-        
-
+        return rev;
     }
+
     public static void main(String[] args) {
-        Rev(234);
-          
-        
+
+        int result = Rev(234);
+
+        System.out.println(result);
     }
 }
