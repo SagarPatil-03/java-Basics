@@ -31,9 +31,11 @@ class ReverseLinkedList {
         Node f = new Node(10);
         Node s = new Node(20);
         Node t = new Node(30);
+        Node fo = new Node(data:40);
 
         f.next = s;
         s.next = t;
+        t.next=fo;
 
         f = rev(f);
 
