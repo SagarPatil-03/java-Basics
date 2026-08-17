@@ -22,9 +22,9 @@ class Solution {
                 direction = 1;
             }
 
-            // if (row == numRows - 1) {
-            //     direction = -1;
-            // }
+            if (row == numRows - 1) {
+                direction = -1;
+            }
 
             row = row + direction;
         }
