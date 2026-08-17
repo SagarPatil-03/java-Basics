@@ -26,13 +26,13 @@ class Solution {
                 direction = -1;
             }
 
-            row = row + direction;
+            //row = row + direction;
         }
 
         StringBuilder result = new StringBuilder();
 
         for (StringBuilder r : rows) {
-           // result.append(r);
+           result.append(r);
         }
 
         return result.toString();
