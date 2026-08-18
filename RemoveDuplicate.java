@@ -6,7 +6,7 @@ public class RemoveDuplicate {
 
         int j=1;
 
-        for(int i=1;i<arr.length()-1;i++)
+        for(int i=1;i<arr.length;i++)
         {
             if(arr[j-1]!=arr[i])
             {
