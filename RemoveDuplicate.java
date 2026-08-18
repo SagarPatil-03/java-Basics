@@ -2,6 +2,7 @@ public class RemoveDuplicate {
 
     public static void main(String args[])
     {
+        System.out.println("Remove Duplicate From :-");
         int arr[]={1,1,2,3,2,5};
 
         int j=1;
