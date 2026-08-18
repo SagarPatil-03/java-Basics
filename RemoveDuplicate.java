@@ -1,9 +1,10 @@
+import java.util.*;
 public class RemoveDuplicate {
 
     public static void main(String args[])
     {
         System.out.println("Remove Duplicate From :-");
-        int arr[]={1,1,2,3,2,5};
+        int arr[]={1,1,2,2,5};
 
         int j=1;
 
@@ -16,6 +17,10 @@ public class RemoveDuplicate {
 
             }
         }
+      for(int i=0;i<j;i++)
+      {
+        System.out.print(arr[i]+",");
+      }
     }
     
 }
