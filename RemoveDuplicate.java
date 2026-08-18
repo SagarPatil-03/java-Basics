@@ -8,7 +8,7 @@ public class RemoveDuplicate {
 
         for(int i=1;i<arr.length;i++)
         {
-            if(arr[j]!=arr[i])
+            if(arr[j-1]!=arr[i])
             {
               arr[j]=arr[i];
               j++;
