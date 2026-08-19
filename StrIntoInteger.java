@@ -4,7 +4,9 @@ class StrIntoInteger{
         String s="223";
 
         int num=Integer.parseInt(s);
+        int numb=Integer.valueOf(s);
 
+        System.out.println(numb);
         System.out.println(num);
     }
 }
