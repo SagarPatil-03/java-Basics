@@ -6,8 +6,9 @@ class StrIntoInteger{
         int num=Integer.parseInt(s);
         int numb=Integer.valueOf(s);
 
-        System.out.println("Using parseInt():- " +num);
-        System.out.println("Using valueOf() :- " +numb);
+        System.out.println("This Program used to convert String into Integr:-");
+        System.out.println("Using parseInt():- "+num);
+        System.out.println("Using valueOf() :- "+numb);
         
     }
 }
