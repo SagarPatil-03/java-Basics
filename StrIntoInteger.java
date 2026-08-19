@@ -7,6 +7,6 @@ class StrIntoInteger{
         int numb=Integer.valueOf(s);
 
         System.out.println("Using valueOf() :-"+numb);
-        System.out.println(num);
+        System.out.println("Using parseInt():-"+num);
     }
 }
