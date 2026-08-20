@@ -15,7 +15,7 @@ public class PrintDuplicate{
 
       }
     }
-    System.out.println("");
+    System.out.println("Duplicate From the Array :-");
      System.out.println(hs);
     }
 }
