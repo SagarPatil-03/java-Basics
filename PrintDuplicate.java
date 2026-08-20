@@ -15,6 +15,7 @@ public class PrintDuplicate{
 
       }
     }
+    System.out.println("");
      System.out.println(hs);
     }
 }
