@@ -9,7 +9,7 @@ public static void main(String args[])
     {
          char ch = s.toChar(i);
         
-        if(ch[i]==ch[i+1])
+        if(ch==s.toChar[i+1])
         {
             System.out.println(ch[i]);
         }
