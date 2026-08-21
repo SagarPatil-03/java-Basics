@@ -7,12 +7,13 @@ public static void main(String args[])
    
     for(int i=0;i<s.length()-1;i++)
     {
-         Char ch = s.toChar(i);
+         char ch = s.toChar(i);
         
         if(ch[i]==ch[i+1])
         {
             System.out.println(ch[i]);
         }
+
     }
 }
 }
