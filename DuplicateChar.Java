@@ -4,7 +4,7 @@ class DuplicateChar
 public static void main(String args[])
 {
     String s="sagar";
-   Char ch = s.charAt(i);
+   Char ch = s.toChar(i);
     for(int i=0;i<str.length()-1;i++)
     {
         
