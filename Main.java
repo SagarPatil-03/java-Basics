@@ -3,7 +3,6 @@ class Student {
     private String name;
     private int age;
 
-    // Setter
     public void setName(String name) {
         this.name = name;
     }
@@ -12,7 +11,6 @@ class Student {
         this.age = age;
     }
 
-    // Getter
     public String getName() {
         return name;
     }
@@ -23,6 +21,7 @@ class Student {
 }
 
 public class Main {
+
     public static void main(String[] args) {
 
         Student s = new Student();
