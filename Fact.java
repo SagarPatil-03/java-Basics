@@ -9,6 +9,7 @@ class Fact
       fact = fact*num;
         }
         System.out.println(fact);
+        System.out.println("Factorial program using for loop");
     }
 
 }
