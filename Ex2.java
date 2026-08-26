@@ -16,5 +16,6 @@ class Ex2
 		{
 			System.out.println(arr[i]);
 	}
+	System.out.println("Used the add array element.");
 }
 }
