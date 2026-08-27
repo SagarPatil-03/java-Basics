@@ -6,7 +6,7 @@ public class FirstDuplicate {
         System.out.println("Infosys ask question:--");
         List<Integer> transactionIds = Arrays.asList(101, 102, 103, 102, 104, 105);
 
-        LinkedHashMap<Integer, Integer> map = new LinkedHashMap<>();
+        //LinkedHashMap<Integer, Integer> map = new LinkedHashMap<>();
 
         for (Integer id : transactionIds) {
             map.put(id, map.getOrDefault(id, 0) + 1);
