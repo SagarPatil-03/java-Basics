@@ -36,7 +36,7 @@ class HashMapBasic{
         // map.clear();
 
          // 10.size()
-        System.out.println(mp.size());
+       // System.out.println(mp.size());
 
         // 11.replace()
         mp.replace(102, "Rohan");
