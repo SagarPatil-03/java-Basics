@@ -15,7 +15,7 @@ public class FirstDuplicate {
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
             if (entry.getValue() > 1) {
                 System.out.println("First Duplicate Transaction ID: " + entry.getKey());
-                //break;
+                break;
             }
         }
     }
