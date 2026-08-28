@@ -72,7 +72,7 @@ class MergedTwoSortedLinkList {
 
         while(result != null) {// print to list
             System.out.print(result.data+" ");
-            result=result.next;
+            result=result.next ;
         }
     }
 }
