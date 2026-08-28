@@ -15,6 +15,6 @@ class KadaneAlgo {
         }
 
         System.out.println("Maximum Subarray Sum = " + maxSum);
-        System.out.println("IMP For DSA and Competetive:-")
+        System.out.println("IMP For DSA and Competetive :-");
     }
 }
