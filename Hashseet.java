@@ -6,7 +6,7 @@ public class Hashseet {
      int arr[]={1,2,3,4,3,4,6,7};
            
      HashSet<Integer> hs=new HashSet<>();
-  // HashSet Used to find Unique Digits.
+  // HashSet Used to find Unique Digits...
      for(int num:arr)
      {
         if(hs.contains(num))
