@@ -21,7 +21,7 @@ class RevWordString {
         }
 
 
-        System.out.println("This is reverse word in String.");
+        System.out.println("This is reverse word in given String.");
         System.out.println(result.toString());
     }
 }
