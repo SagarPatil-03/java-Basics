@@ -9,6 +9,7 @@ public class Anagram {
 
 
         s1=s1.replaceAll("\\s+","");
+        s2=s2.replaceAll("\\s+","");
 
         char[] a = s1.toCharArray();
         char[] b = s2.toCharArray();
