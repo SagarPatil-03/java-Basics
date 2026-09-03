@@ -7,6 +7,9 @@ public class Anagram {
         String s1 = "race far";
         String s2 = "care raf";
 
+
+        s1=s1.replaceAll("\\s+","");
+
         char[] a = s1.toCharArray();
         char[] b = s2.toCharArray();
 
