@@ -5,10 +5,10 @@ public class Anagram {
     public static void main(String[] args) {
 
         String s1 = "race far";
-        String s2 = "care raf";
+        String s2 = "care rAf";
 
 
-        s1=s1.replaceAll("\\s+","");
+        s1=s1.replaceAll("\\s+","").toLowerCase();
         s2=s2.replaceAll("\\s+","");
 
         char[] a = s1.toCharArray();
