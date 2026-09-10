@@ -16,7 +16,9 @@ public class Anagram {
 
         Arrays.sort(a);
         Arrays.sort(b);
-    // This is for anagram program .
+
+       // This is for anagram program .
+       
         if(Arrays.equals(a, b)) {
             System.out.println("Given String is Anagram String.");
         } else {
