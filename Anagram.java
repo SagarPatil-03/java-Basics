@@ -21,7 +21,7 @@ public class Anagram {
        // This is for anagram program .
 
         if(Arrays.equals(a, b)) {
-            System.out.println("Given String is Anagram String.");
+            System.out.println("Given String is Anagram .");
         } else {
             System.out.println("Given String is Not Anagram .");
         }
