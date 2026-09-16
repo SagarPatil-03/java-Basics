@@ -71,7 +71,7 @@ class MergedTwoSortedLinkList {
         Node result = merge(l1,l2);
 
         while(result != null) {
-            // print to list
+            // print to list.
             System.out.print(result.data+" ");
             result=result.next ;
             
