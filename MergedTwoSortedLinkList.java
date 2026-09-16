@@ -45,7 +45,8 @@ class MergedTwoSortedLinkList {
             temp = temp.next;
         }
 
-        // Attach remaining nodes
+        // Attach remaining nodes.
+        
         if(l1 != null)
             temp.next = l1;
 
