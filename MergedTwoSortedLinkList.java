@@ -30,7 +30,7 @@ class MergedTwoSortedLinkList {
 
         Node temp = head;
 
-        // Merge remaining nodes
+        // Merge remaining nodes.
         while(l1 != null && l2 != null) {
 
             if(l1.data <= l2.data) {
@@ -46,7 +46,7 @@ class MergedTwoSortedLinkList {
         }
 
         // Attach remaining nodes.
-        
+
         if(l1 != null)
             temp.next = l1;
 
