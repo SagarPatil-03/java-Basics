@@ -21,7 +21,7 @@ public class PerfectNumber {
         } else {
             System.out.println(num + " is Not a Perfect Number.");
         }
-        // perfect Number to this code.
+        // perfect No. to this code.
         sc.close();
     }
 }
