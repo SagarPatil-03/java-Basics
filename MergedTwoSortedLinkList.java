@@ -16,7 +16,7 @@ class MergedTwoSortedLinkList {
         if(l1 == null) return l2;
         if(l2 == null) return l1;
 
-        // Choose starting head
+        // Choose starting head.
         Node head;
 
         if(l1.data <= l2.data) {
