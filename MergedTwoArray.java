@@ -17,7 +17,7 @@ public class MergedTwoArray {
 
         // Copy second array
         for (int num : arr2) {
-            result[index++] = num;
+            result[index++] =num;
         }
 
         System.out.println(Arrays.toString(result));
