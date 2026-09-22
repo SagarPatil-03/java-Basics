@@ -12,7 +12,7 @@ public class MergedTwoArray {
 
         // Copy first array
         for (int num : arr1) {
-            result[index++] = num;
+            result[index++] =num;
         }
 
         // Copy second array
