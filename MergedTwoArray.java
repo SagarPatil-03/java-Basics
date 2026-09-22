@@ -12,12 +12,12 @@ public class MergedTwoArray {
 
         // Copy first array
         for (int num : arr1) {
-            result[index++] =num;
+            result[index++]=num;
         }
 
         // Copy second array
         for (int num : arr2) {
-            result[index++] =num;
+            result[index++]=num;
         }
 
         System.out.println(Arrays.toString(result));
