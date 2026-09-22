@@ -10,7 +10,7 @@ public class PrintDuplicate{
       if(arr[i]==arr[i+1])
       {
 
-       hs.add(arr[i]) ;
+       hs.add(arr[i]);
 
 
       }
