@@ -8,7 +8,7 @@ class AddSorted {
         int[] arr2 = {4, 5, 6, 7};
 
         int[] result = new int[arr1.length + arr2.length];
-        int index = 0;
+        int index =  0;
 
         for (int num : arr1) {
             result[index++] = num;
