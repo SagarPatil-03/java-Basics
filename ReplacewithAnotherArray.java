@@ -10,7 +10,7 @@ class ReplacewithAnotherArray {
 
         for (int i = 0; i < num1.length; i++) {
             if (num1[i] == 0 && j < num2.length) {
-                num1[i] = num2[j++] ;
+                num1[i] = num2[j++];
             }
         }
        System.out.println("This is program we used inside array 1 present zero repplace by another array2 . ");
