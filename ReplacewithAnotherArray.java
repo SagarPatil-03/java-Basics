@@ -9,7 +9,9 @@ class ReplacewithAnotherArray {
         int j = 0;
 
         for (int i = 0; i < num1.length; i++) {
-            if (num1[i] == 0 && j < num2.length) {
+            if (num1[i] == 0 && j < num2.length)
+                 {
+
                 num1[i] = num2[j++];
             }
         }
