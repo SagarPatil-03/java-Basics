@@ -18,6 +18,6 @@ class AddSorted {
             result[index++] = num;
         }
 
-        System.out.println(Arrays.toString(result))  ;
+        System.out.println(Arrays.toString(result));
     }
 }
