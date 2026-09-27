@@ -29,7 +29,7 @@ public class BinarySearch {
         }
             System.out.println("Element Not Found.");
 
-            // if mid is greater than key. 
+            // if mid is greater than ke
            
 
         
