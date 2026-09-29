@@ -7,6 +7,6 @@ class FreCount {
             count++;
         }
 
-        System.out.println( count);
+        System.out.println( count );
     }
 }
