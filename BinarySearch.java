@@ -12,7 +12,7 @@ public class BinarySearch {
         {
             int mid=(start+end)/2;
 
-            if(arr[mid]==key)
+            if(arr[mid] == key)
             {
                 System.out.println(mid);
                 return;
