@@ -19,7 +19,7 @@ public class BinarySearch {
             }
             else if(arr[mid]>key)
             {
-                end=mid - 1;
+                end=mid- 1;
             }
 
             else
