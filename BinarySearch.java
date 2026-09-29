@@ -6,7 +6,7 @@ public class BinarySearch {
         int key =3;
 
         int start=0;
-        int end =arr.length-1;
+        int end=arr.length-1;
 
         while(start<=end)
         {
