@@ -17,7 +17,7 @@ public class BinarySearch {
                 System.out.println(mid);
                 return;
             }
-            else if(arr[mid]>key)
+            else if(arr[mid]>key )
             {
                 end=mid-1;
             }
