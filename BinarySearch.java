@@ -24,7 +24,7 @@ public class BinarySearch {
 
             else
             {
-                start = mid +1;
+                start = mid+1;
             }
         }
             System.out.println("Element Not Found.");
