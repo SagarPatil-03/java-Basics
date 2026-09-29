@@ -1,15 +1,12 @@
-class FreCount
-{
-    public static void main(String args[])
-    {
-        int count =0;
+class FreCount {
+    public static void main(String args[]) {
+        int count = 0;
         String name = "sagar";
 
-        for(int i=0; i<=name.length(); i++)
-        {
-        count++;
+        for (int i = 0; i < name.length(); i++) {
+            count++;
         }
 
-        System.out.println(count++);
+        System.out.println(count);
     }
 }
