@@ -10,6 +10,6 @@ class FreCount
         count++;
         }
 
-        System.out.println(Count++);
+        System.out.println(count++);
     }
 }
