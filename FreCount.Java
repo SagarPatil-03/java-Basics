@@ -8,5 +8,6 @@ class FreCount {
         }
 
         System.out.println(count);
+        
     }
 }
