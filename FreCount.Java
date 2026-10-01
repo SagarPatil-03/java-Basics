@@ -7,7 +7,7 @@ class FreCount {
             count++;
         }
 
-        System.out.println("Count The character present in String "+count );
+        System.out.println("Count The character present in String. = "+count );
 
     }
 }
