@@ -6,9 +6,7 @@ class FreCount {
         for (int i = 0; i < name.length(); i++) {
             count++;
         }
-
         System.out.println("Count The character present in String. = "+count);
       
-
     }
 }
