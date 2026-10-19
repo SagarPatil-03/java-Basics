@@ -41,7 +41,6 @@ class ReverseLinkedList {
             System.out.print(temp.data + " ");
             temp = temp.next;
 
-            
         }
     }
 }
