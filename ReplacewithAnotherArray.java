@@ -13,6 +13,7 @@ class ReplacewithAnotherArray {
                  {
 
                 num1[i] = num2[j++];
+                
             }
         }
        System.out.println("This is program we used inside array 1 present zero repplace by another array2 . ");

@@ -24,6 +24,7 @@ class ReverseLinkedList {
         }
 
         return p;
+        
     }
 
     public static void main(String args[]) {
