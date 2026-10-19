@@ -34,8 +34,6 @@ class ReverseLinkedList {
         
         f.next = s;
         s.next = t;
-      
-
         f = rev(f);
 
         Node temp = f;
