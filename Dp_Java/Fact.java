@@ -13,7 +13,7 @@ public class Fact {
             
         }
 
-        System.out.println("Fact of The given Number:-"+dp[n]);
+        System.out.println("Fact of The given Number:-" +dp[n]);
 
     }
     
