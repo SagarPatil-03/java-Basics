@@ -1,3 +1,6 @@
+// Problem: House Robber
+
+// You are a thief. Every house has some money, but you cannot steal from two adjacent houses.
 
 import java.util.Arrays;
 
