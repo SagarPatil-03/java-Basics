@@ -1,5 +1,7 @@
 public class MinClimbingStaircase {
 
+    //Minimus Cost
+
     public static void main(String[] args) {
 
         int cost[] = {10, 15, 20, 5};
