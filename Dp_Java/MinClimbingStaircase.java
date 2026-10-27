@@ -1,6 +1,6 @@
 public class MinClimbingStaircase {
 
-    //Minimus Cost
+    //Minimum  Cost
 
     public static void main(String[] args) {
 
