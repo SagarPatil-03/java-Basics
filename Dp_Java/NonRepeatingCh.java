@@ -1,7 +1,7 @@
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-// Most Of Company asking the VVIMP question.
+// Most Of Company asking the VVIMP questions.
 public class NonRepeatingCh {
 
     public static void main(String[] args) {
