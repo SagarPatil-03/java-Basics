@@ -19,5 +19,6 @@ public class MinClimbingStaircase {
         int ans = Math.min(dp[n - 1], dp[n - 2]);
 
         System.out.println("Minimum Cost: " + ans);
+        
     }
 }
