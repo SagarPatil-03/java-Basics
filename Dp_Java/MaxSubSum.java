@@ -7,7 +7,7 @@ class MaxSubSum{
 
         for(int i=1; i<arr.length;i++)
         {
-            currSum= Math.max(arr[i], currSum+arr[ijava]);
+            currSum= Math.max(arr[i], currSum+arr[i]);
             maxSum=Math.max(maxSum, currSum);
         }
         System.out.println(maxSum);
