@@ -31,6 +31,6 @@ public class UniquePath {
 
         int result = uniquePaths(m, n);
 
-        System.out.println("Total Unique Paths:" + result);
+        System.out.println("Total Unique Paths: " + result);
     }
 }
