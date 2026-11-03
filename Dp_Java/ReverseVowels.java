@@ -34,7 +34,7 @@ class ReverseVowels {
     public static void main(String[] args) {
         ReverseVowels obj = new ReverseVowels();
 
-        String s = "hello" ;
+        String s = "hello";
 
         System.out.println(obj.reverseVowels(s));
     }
