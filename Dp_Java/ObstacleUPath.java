@@ -1,5 +1,8 @@
 public class ObstacleUPath {
+  
+    
 
+    //obtscALE FOR uniques path.
     public static int uniquePathsWithObstacles(int[][] obstacleGrid) {
 
         int m = obstacleGrid.length;
