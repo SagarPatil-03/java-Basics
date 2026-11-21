@@ -1,6 +1,6 @@
 
 public class MaxSubArray {
-  // MaxSubArray
+  // MaxSubArray Sum
     public static int maxSubArray(int[] nums) {
 
         int sum = 0;
